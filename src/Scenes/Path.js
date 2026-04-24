@@ -126,9 +126,9 @@ class Path extends Phaser.Scene {
             //   If active:
             //   - call stopFollow on the enemyShip to halt following behavior
             //   - make the enemyShip sprite invisible
-            //   - set sprite mode to false
+            //   - set runMode to false
             //  If not active:
-            //   - set sprite mode to true
+            //   - set runMode to true
             //   - set the location of enemyship to the first point on the curve
             //     (get this from the zero'th element of this.curve.points array,
             //      e.g., this.curve.points[0].x)
